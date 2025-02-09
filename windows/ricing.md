@@ -27,7 +27,7 @@
 - Mouse cursor: Windows Black
 
 ### Background
-- Background: [wall.png]
+- Background: [wall.png](wall.png)
 - Choose a fit: Fill
 
 ### Colors
