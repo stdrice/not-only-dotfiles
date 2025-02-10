@@ -1,10 +1,11 @@
 # Windows Ricing
 
-## Set theme with SecureUxSettings
-- Download and extract SecureUxSettings and [X.zip](X.zip) (Windows 10 21H2 to 22H2)
+## Set theme with SecureUxTheme
+- Download and extract SecureUxTheme and [X.zip](X.zip) (Windows 10 21H2 to 22H2)
 - Paste all contents in `X` to `C:\Windows\Resources\Themes`
-- Open `ThemeTool.exe`
-- Choose `X` and choose `Patch and apply`
+- Run `ThemeTool.exe` as Administrator
+- Click `Install`
+- Choose `xLinux` and choose `Patch and apply`
 
 ## Settings
 ### Taskbar (Windows 10, use ExplorerPatcher if you use Windows 11)
