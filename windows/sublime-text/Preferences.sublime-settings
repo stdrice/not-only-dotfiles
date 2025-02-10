@@ -1,6 +1,7 @@
 // Settings in here override those in "Default/Preferences.sublime-settings",
 // and are overridden in turn by syntax-specific settings.
 {
+	"color_scheme": "lol.sublime-color-scheme",
 	"animation_enabled": false,
 	"show_encoding": true,
 	"show_line_column": "compact",
@@ -8,5 +9,4 @@
 	"vintage_use_clipboard": true,
 	"relative_line_numbers": true,
 	"ignored_packages": [],
-	"color_scheme": "Mariana.sublime-color-scheme",
 }
