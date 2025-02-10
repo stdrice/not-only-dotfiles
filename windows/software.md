@@ -19,4 +19,4 @@
 
 ## Other
 - [ExplorerPatcher](https://github.com/valinet/ExplorerPatcher/releases/latest)
-- [SecureUxTheme](https://github.com/namazso/SecureUxTheme/releases/latest) with [X.zip](X.zip) (Windows 10 21H2 to 22H2)
+- [SecureUxTheme](https://github.com/namazso/SecureUxTheme/releases/latest) with [X.zip](X.zip) (Windows 10 1709 to 22H2)
