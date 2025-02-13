@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# pznguin-kyun's mac settings
+# stdrice's mac settings
 
 # Close any open System Preferences panes, to prevent them from overriding
 # settings we’re about to change
