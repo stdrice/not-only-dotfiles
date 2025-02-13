@@ -226,12 +226,6 @@
 
 
 
-#urlbar[focused="true"]
-    > #urlbar-background,
-#urlbar:not([open])
-    > #urlbar-background { background: transparent !important; }
-
-
 .urlbarView-row:hover
     > .urlbarView-row-inner,
 .urlbarView-row[selected]
