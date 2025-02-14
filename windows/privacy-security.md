@@ -23,4 +23,4 @@ Set to "Always notify"
 - SmartScreen: Disable
 
 ## Other
-- [NextDNS](https://nextdns.io)
+- [MullvadDNS](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls#win11)
