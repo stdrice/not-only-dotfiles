@@ -2,6 +2,15 @@
     "pano_version": 345,
     "simple_edits": [
         {
+            "origTrack": "ngã tư không đèn",
+            "origAlbum": "",
+            "origArtist": "trang & khoa vũ",
+            "track": "Ngã Tư Không Đèn",
+            "album": "",
+            "albumArtist": "",
+            "artist": "Trang"
+        },
+        {
             "origTrack": "thằng điên",
             "origAlbum": "thằng điên",
             "origArtist": "justatee & phuong ly",
@@ -110,6 +119,15 @@
             "artist": "Obito"
         },
         {
+            "origTrack": "nâng tầm cuộc chơi (feat. cậu phát)",
+            "origAlbum": "nâng tầm cuộc chơi",
+            "origArtist": "rocky cde",
+            "track": "Nâng Tầm Cuộc Chơi",
+            "album": "Nâng Tầm Cuộc Chơi",
+            "albumArtist": "",
+            "artist": "Rocky CDE"
+        },
+        {
             "origTrack": "deep down",
             "origAlbum": "",
             "origArtist": "alok, ella eyre, kenny dope & never dull",
@@ -123,6 +141,24 @@
             "origAlbum": "",
             "origArtist": "obito, shiki & vstra",
             "track": "Hà Nội",
+            "album": "",
+            "albumArtist": "",
+            "artist": "Obito"
+        },
+        {
+            "origTrack": "hà nội",
+            "origAlbum": "",
+            "origArtist": "obito",
+            "track": "Hà Nội",
+            "album": "Đánh đổi",
+            "albumArtist": "",
+            "artist": "Obito"
+        },
+        {
+            "origTrack": "hà nội",
+            "origAlbum": "đánh đổi",
+            "origArtist": "obito",
+            "track": "Hà Nội",
             "album": "Đánh Đổi",
             "albumArtist": "",
             "artist": "Obito"
@@ -135,6 +171,15 @@
             "album": "LOI CHOI: The Neo Pop Punk",
             "albumArtist": "",
             "artist": "Wren Evans"
+        },
+        {
+            "origTrack": "see you again",
+            "origAlbum": "",
+            "origArtist": "tyler",
+            "track": "See You Again",
+            "album": "",
+            "albumArtist": "Tyler, the Creator",
+            "artist": "Tyler, the Creator"
         },
         {
             "origTrack": "like him",
@@ -158,6 +203,15 @@
             "origTrack": "bon appetit s",
             "origAlbum": "",
             "origArtist": "ぼなぺてぃーと▽s",
+            "track": "Bon Appetit S",
+            "album": "",
+            "albumArtist": "",
+            "artist": "BLEND-A"
+        },
+        {
+            "origTrack": "bon appetit s",
+            "origAlbum": "",
+            "origArtist": "blend-a",
             "track": "ぼなぺてぃーと▽S",
             "album": "",
             "albumArtist": "",
@@ -171,6 +225,15 @@
             "album": "",
             "albumArtist": "",
             "artist": "RPT MCK"
+        },
+        {
+            "origTrack": "phép màu (đàn cá gỗ original soundtrack) (feat. minh tốc & lam)",
+            "origAlbum": "",
+            "origArtist": "maydays",
+            "track": "Phép Màu (feat. Minh Tốc & Lam) [Đàn Cá Gỗ Original Soundtrack]",
+            "album": "",
+            "albumArtist": "MAYDAYs",
+            "artist": "MAYDAYs"
         }
     ],
     "regex_edits": [
@@ -209,7 +272,7 @@
         {
             "order": 5,
             "name": "lol",
-            "pattern": "[\\s\\[\\(\\{\"]*\\b(?i:(?<!\\w)(feat(?:uring)?|ft))\\.?\\b\\s+[^)\\]\\}\\]]+([\\s,&]+[^)\\]\\}\\]]+)*[\\s\\]\\)\\}\\\"]*",
+            "pattern": "(?i)[\\s\\[\\(\\{\"]*\\(*\\s*\\b(?:ft|feat|featuring)\\.?\\b[^)\\]\\}\\\"]*\\)*[\\s\\]\\)\\}\\\"]*",
             "replacement": "",
             "fields": [
                 "artist",
