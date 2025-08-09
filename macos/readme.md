@@ -1,0 +1,4 @@
+# MacOS Setup
+```
+./macsettings.sh
+```
