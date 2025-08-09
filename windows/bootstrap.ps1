@@ -21,7 +21,7 @@ function Install-MSStore {
 
 function Install-Packages {
 	Write-Start -msg "Installing packages..."
-	winget install Mozilla.Firefox Microsoft.WindowsTerminal GNU.Emacs 7zip.7zip Git.Git VideoLAN.VLC IrfanSkiljan.IrfanView JanDeDobbeleer.OhMyPosh Python.Python.3.13
+	winget install Mozilla.Firefox Microsoft.WindowsTerminal 7zip.7zip Git.Git VideoLAN.VLC IrfanSkiljan.IrfanView JanDeDobbeleer.OhMyPosh Python.Python.3.13
 }
 
 function Config-System {
